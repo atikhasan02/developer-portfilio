@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family:'Open Sans' , sans-serif ;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}   
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 45px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.hire-button{
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+/* applying styles into banner */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+.banner-btn{
+    padding: 11px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.cv-btn{
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+}
+.contact-btn{
+    background-color: white;
+    color: #FD6E0A;
+    border:1px solid #FD6E0A;
+}
